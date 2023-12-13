@@ -14,19 +14,19 @@ const Header = () => {
         </Link>
         
         <div className="flex gap-4">
-          <a href="https://www.facebook.com/1click Mall" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
             <FaFacebook size={35} color="blue" />
           </a>
 
-          <a href="https://twitter.com/1click Mall" target="_blank" rel="noopener noreferrer">
+          <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">
             <FaTwitter size={35} color="blue" />
           </a>
 
-          <a href="https://www.instagram.com/1click Mall" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
             <FaInstagram size={35} color="blue" />
           </a>
 
-          <a href="https://www.linkedin.com/1click Mall" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
             <FaLinkedin size={35} color="blue" />
           </a>
         </div>
