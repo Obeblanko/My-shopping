@@ -30,7 +30,7 @@ const HomePage = () => {
                      
                      
                     <div className="bg-white p-6 rounded-lg shadow-md">
-                    <Link href='/#'>
+                    <Link href='/shop'>
                         <h2 className="text-xl font-bold mb-2">Exciting Services</h2>
                     <p className="text-gray-600">Experience the best customer service when you shop from us.</p>
                     </Link>
@@ -39,7 +39,7 @@ const HomePage = () => {
 
                       
                     <div className="bg-white p-6 rounded-lg shadow-md">
-                    <Link href='/#'>
+                    <Link href='/booking'>
                         <h2 className="text-xl font-bold mb-2">Explore our delivery service</h2>
                         <p className="text-gray-600">Use this service to get your goods delivered at your doorstep with no stress and at your comfort.</p>
                         </Link>
