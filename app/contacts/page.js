@@ -66,7 +66,7 @@ const ContactsPage = () => {
                     </button>
                 </form>
 
-                <p className="text-lg mb-4">
+                <p className="text-lg mb-4 ">
                     Or feel free to reach us directly through our mail at{' '}
                     <a href='mailto: 1clickmall23@gmail.com' className="text-blue-500 underline">1clickmall23@gmail.com</a>.
                 </p>
