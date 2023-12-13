@@ -11,7 +11,7 @@ const BookingPage = ()=> {
            <Header />
            <Banner />
             <Navbar showHome={true}  showProducts={true} showShop={true} showContact={true}   />
-            <div className="container mx-auto my-8 p-4 bg-white rounded shadow-md">
+            <div className="container mx-auto my-8 p-4 bg-white rounded shadow-md ">
             <div className="max-w-2xl mx-auto bg-yellow-100 p-8 rounded shadow-lg">
         <h2 className="text-3xl font-semibold mb-6 text-center"> <strong>Delivery Information</strong></h2>
 
