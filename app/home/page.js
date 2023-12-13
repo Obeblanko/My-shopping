@@ -22,7 +22,7 @@ const HomePage = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     
                     <div className="bg-white p-6 rounded-lg shadow-md">
-                      <Link href='/shop'>
+                      <Link href='/products'>
                         <h2 className="text-xl font-bold mb-2">Awesome Products</h2>
                         <p className="text-gray-600">Dive into the details of fantastic products in stock. </p>
                         </Link>
