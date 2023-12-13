@@ -8,21 +8,22 @@ const Footer = () => {
         &copy; 2023 <strong> 1Click Mall.</strong> All rights reserved.
       </p>
       <div className="flex justify-center gap-4 mt-2">
-        <a href="https://www.facebook.com/1click Mall" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
           <FaFacebook size={24} color="white" />
         </a>
-        <a href="https://twitter.com/1click Mall" target="_blank" rel="noopener noreferrer">
+        
+        <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">
           <FaTwitter size={24} color="white" />
         </a>
-        <a href="https://www.instagram.com/1click Mall" target="_blank" rel="noopener noreferrer">
+
+        <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
           <FaInstagram size={24} color="white" />
         </a>
-        <a href="https://linkedin.com/1click Mall" target="_blank" rel="noopener noreferrer">
+
+        <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer">
           <FaLinkedin size={24} color="white" />
         </a>
-        <a href="https://youtube.com/1click Mall" target="_blank" rel="noopener noreferrer">
-          <FaYoutube size={24} color="white" />
-        </a>
+        
       </div>
     </footer>
   );
