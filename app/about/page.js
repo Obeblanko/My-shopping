@@ -15,6 +15,7 @@ const AboutPage = () => {
         showShop={true}
         showContact={true}
       />
+      
       <div className="container mx-auto my-8 p-4 bg-white rounded shadow-md">
         <p className="text-gray-700 leading-7">
           Welcome to our online shopping website! At
