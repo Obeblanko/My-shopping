@@ -1,4 +1,4 @@
-// Import necessary libraries and components
+
 import React from 'react';
 import Header from '../components/Header/Header';
 import Footer from '../components/Footer/Footer';
@@ -10,7 +10,7 @@ const ProductsPage = () => {
             <Header />
             <Navbar showHome={true} showAbout={true} showShop={true} showContact={true}   />
 
-            {/* Main content for the Products Page */}
+            
             <div className="container mx-auto my-8">
                 <h1 className="text-3xl font-bold mb-4">Explore Our Products</h1>
                 <p className="text-gray-600 mb-8">
@@ -24,42 +24,45 @@ const ProductsPage = () => {
           <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4'>
             
             <div className='border p-4 rounded-md shadow-md'>
-              <h3 className='text-xl font-semibold mb-2'>Product 1</h3>
-              <p className='text-gray-700'>
-                Description of the first featured product.
+              <h3 className='text-xl font-semibold mb-2 text-blue-400'>ELECTRONICS ACCESSORIES</h3>
+              <p className='text-gray-600'>
+              Upgrade your tech experience with our cutting-edge [Product Name]. Designed for [specific device or purpose], 
+              this premium [Type of Accessory] is the perfect blend of style and functionality.
+              Upgrade your tech game today with the [Product Name] and enjoy a seamless, stylish, and enhanced electronic experience. 
+              Order now and redefine the way you interact with your devices!
               </p>
             </div>
 
             <div className='border p-4 rounded-md shadow-md'>
-              <h3 className='text-xl font-semibold mb-2'>Product 2</h3>
-              <p className='text-gray-700'>
-                Description of the second featured product.
-              </p>
-            </div>
-
-            <div className='border p-4 rounded-md shadow-md'>
-              <h3 className='text-xl font-semibold mb-2'>Product 3</h3>
+              <h3 className='text-xl font-semibold mb-2 text-blue-400'>BOOKS & STATIONERY</h3>
               <p className='text-gray-700'>
                 Description of the second featured product.
               </p>
             </div>
 
             <div className='border p-4 rounded-md shadow-md'>
-              <h3 className='text-xl font-semibold mb-2'>Product 1</h3>
+              <h3 className='text-xl font-semibold mb-2 '>SPORTS & OUTDOORS</h3>
+              <p className='text-gray-700'>
+                Description of the second featured product.
+              </p>
+            </div>
+
+            <div className='border p-4 rounded-md shadow-md'>
+              <h3 className='text-xl font-semibold mb-2'>TOYS & GAMES</h3>
               <p className='text-gray-700'>
                 Description of the first featured product.
               </p>
             </div>
 
             <div className='border p-4 rounded-md shadow-md'>
-              <h3 className='text-xl font-semibold mb-2'>Product 1</h3>
+              <h3 className='text-xl font-semibold mb-2'>HEALTH & BEAUTY</h3>
               <p className='text-gray-700'>
                 Description of the first featured product.
               </p>
             </div>
 
             <div className='border p-4 rounded-md shadow-md'>
-              <h3 className='text-xl font-semibold mb-2'>Product 1</h3>
+              <h3 className='text-xl font-semibold mb-2'>HOME & FURNITURE</h3>
               <p className='text-gray-700'>
                 Description of the first featured product.
               </p>
@@ -73,42 +76,42 @@ const ProductsPage = () => {
           <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4'>
             
             <div className='border p-4 rounded-md shadow-md'>
-              <h3 className='text-xl font-semibold mb-2'>New Product 1</h3>
+              <h3 className='text-xl font-semibold mb-2'>TECH GADGETS</h3>
               <p className='text-gray-700'>
                 Description of the first new arrival product.
               </p>
             </div>
 
             <div className='border p-4 rounded-md shadow-md'>
-              <h3 className='text-xl font-semibold mb-2'>New Product 2</h3>
+              <h3 className='text-xl font-semibold mb-2'>UNIQUE & HANDMADE ITEMS</h3>
               <p className='text-gray-700'>
                 Description of the second new arrival product.
               </p>
             </div>
 
             <div className='border p-4 rounded-md shadow-md'>
-              <h3 className='text-xl font-semibold mb-2'>New Product 1</h3>
+              <h3 className='text-xl font-semibold mb-2'>FOOD AND BEVERAGES</h3>
               <p className='text-gray-700'>
                 Description of the first new arrival product.
               </p>
             </div>
 
             <div className='border p-4 rounded-md shadow-md'>
-              <h3 className='text-xl font-semibold mb-2'>New Product 1</h3>
+              <h3 className='text-xl font-semibold mb-2'>ART AND CRAFT</h3>
               <p className='text-gray-700'>
                 Description of the first new arrival product.
               </p>
             </div>
 
             <div className='border p-4 rounded-md shadow-md'>
-              <h3 className='text-xl font-semibold mb-2'>New Product 1</h3>
+              <h3 className='text-xl font-semibold mb-2'>FASHION & APPRREL</h3>
               <p className='text-gray-700'>
                 Description of the first new arrival product.
               </p>
             </div>
 
             <div className='border p-4 rounded-md shadow-md'>
-              <h3 className='text-xl font-semibold mb-2'>New Product 1</h3>
+              <h3 className='text-xl font-semibold mb-2'>PET PRODUCTS</h3>
               <p className='text-gray-700'>
                 Description of the first new arrival product.
               </p>

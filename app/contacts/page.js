@@ -13,12 +13,12 @@ const ContactsPage = () => {
 
             <div className="container mx-auto my-8 p-8 bg-gray-100 rounded shadow-lg text-center">
                 <h1 className="text-2xl font-bold mb-4 text-center">Contact Us</h1>
-                <p className="text-gray-600 mb-8">
-                    We believe strongly in feedback from our valued customers as we <br/> build on that to improve on our service delivery. <br/><br/>
+                <p className="text-gray-600 mb-8 text-2xl">
+                    We believe strongly in feedback from our valued customers as we <br/> build on that to improve on our service delivery. <br/>
                     Have questions or suggestions?  <br/>Feel free to reach out to us using the form below.
                 </p>
 
-                <form className="max-w-md mx-auto">
+                <form className="max-w-md mx-auto text-1xl">
                     <div className="mb-4">
                         <label htmlFor="name" className="block text-gray-700 text-sm font-bold mb-2">
                             Your Name
@@ -66,6 +66,7 @@ const ContactsPage = () => {
                     </button>
                 </form>
 
+<div>
                 <p className="text-lg mb-4 ">
                     Or feel free to reach us directly through our mail at{' '}
                     <a href='mailto: 1clickmall23@gmail.com' className="text-blue-500 underline">1clickmall23@gmail.com</a>.
@@ -75,6 +76,8 @@ const ContactsPage = () => {
                     You can also give us a call at{' '}
                     <a href="tel:+233540203669" className="text-blue-500">+233-540-203-669</a> / <a href="tel:+233506775792" className="text-blue-500">+233-506-775-792</a>.
                 </p>
+                </div>
+                
             </div>
 
             <Footer />
