@@ -15,7 +15,7 @@ const ProductsPage = () => {
       />
 
       <div className="container mx-auto my-8">
-        <h1 className="text-3xl font-bold mb-4">Explore Our Products</h1>
+        <h1 className="text-3xl font-bold mb-4 text-center">Explore Our Products</h1>
         <p className="text-gray-600 mb-8">
           Welcome to our diverse collection of high-quality products. Find the
           perfect items that suit your needs and preferences. <br/> Whether you're
